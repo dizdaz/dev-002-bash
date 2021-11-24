@@ -17,7 +17,7 @@ while [ $counter -le $runs ]; do
     echo "Success --> $out_p"
     exit 0
 
-  #Print out the error message if failed in the last attempt
+  #Print out the error message if failed at the last attempt
   elif [ $counter -eq $runs ]; then
     echo
     echo "Failed --> $out_p"
